@@ -1,0 +1,42 @@
+{
+  "name": "@azu/textlint-config-readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/textlint-config-readme.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/textlint-config-readme",
+  "license": "MIT",
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "bugs": {
+    "url": "https://github.com/azu/textlint-config-readme/issues"
+  },
+  "version": "1.0.0",
+  "description": "textlint config module for writing readme",
+  "main": "textlint-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "textlint -c ./textlint-config.js ./*.md"
+  },
+  "keywords": [
+    "textlint",
+    "config"
+  ],
+  "dependencies": {
+    "textlint-rule-alex": "^1.0.1",
+    "textlint-rule-common-misspellings": "^1.0.1",
+    "textlint-rule-no-dead-link": "^0.2.0",
+    "textlint-rule-no-todo": "^2.0.0",
+    "textlint-rule-rousseau": "^1.4.1",
+    "textlint-rule-write-good": "^0.1.4"
+  },
+  "devDependencies": {
+    "textlint": "^6.2.0"
+  }
+}
