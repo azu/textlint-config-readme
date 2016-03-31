@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/azu/textlint-config-readme/issues"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "textlint config module for writing readme",
   "main": "textlint-config.js",
   "directories": {
